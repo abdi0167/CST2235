@@ -23,18 +23,32 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="@string/hint"/>
+        android:hint="@string/hint"
+        android:text="@string/login_msg"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_msg"
+        android:id="@+id/textView3"/>
 
     <PlainText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="@string/hint"
+        android:hint="@string/prompt_login"
+        android:text="@string/prompt_login"
         android:inputType="@string/Password"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:inputType="@string/textPassword"/>
+        android:hint="@string/prompt_name"
+        android:text="@string/prompt_password"
+        android:inputType="@string/textPassword"
+        />
+
+
 
 </LinearLayout>
 

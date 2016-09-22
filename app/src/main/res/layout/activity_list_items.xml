@@ -47,7 +47,7 @@
             android:layout_column="1"
             android:text="@string/button_3"
             android:background="@android:drawable/btn_star_big_on"
-            android:contentDescription="An image box"/>
+           />
 
     </GridLayout>
 
