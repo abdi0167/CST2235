@@ -71,6 +71,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         // Bundle are used for passing data between various android activities
         super.onCreate(savedInstanceState);
+        Log.i(ACTIVITY_NAME, "In onStart()");
 
         setContentView(R.layout.activity_login);
 
@@ -93,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 // first parameter: back page; second parameter: what is the next page
-                Intent intent = new Intent(LoginActivity.this,StartActivity.class);
+                Intent intent = new Intent(LoginActivity.this,ListItemsActivity.class);
                 startActivity(intent);
 
             }
