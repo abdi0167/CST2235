@@ -77,36 +77,7 @@ public class ChatWindow extends AppCompatActivity {
 
         }
 
-      //Also, print an information message about the Cursor:
-        /**
-        Log.i(ACTIVITY_NAME, COLUMN_COUNT + cursor.getColumnCount());
 
-        while (!cursor.isAfterLast()) {
-
-            String newstring = cursor.getString(cursor.getColumnIndex(chatDatabaseHelper.KEY_MESSAGE));
-
-            chatList.add(newstring);
-
-            Log.i(ACTIVITY_NAME, "SQL MESSAGE:"
-                    + cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
-
-        }
-
-
-        //Then use a for loop to print out the name of each column returned by the cursor. Use
-        // cursor.getColumnName(int columnIndex) to retrieve each column name.
-    /**    for (int i = 0; i < cursor.getCount(); i++) {
-
-
-          //  Log.i(ACTIVITY_NAME, "Column " + i + " name is " + cursor.getColumnName(i));
-            Log.i(ACTIVITY_NAME, SQL_MESSAGE + cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
-
-            //shows the message in the screen when you onCreate this program
-            chatList.add(cursor.getString(cursor.getColumnIndex(ChatDatabaseHelper.KEY_MESSAGE)));
-            cursor.moveToNext();
-
-        }
-*/
         list = (ListView) findViewById(R.id.listView);
         send = (Button) findViewById(R.id.chatButton);
         edit = (EditText) findViewById(R.id.editChat);
