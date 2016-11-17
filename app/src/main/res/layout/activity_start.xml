@@ -45,4 +45,12 @@
         android:id="@+id/msgListBtn"
         android:text="@string/message_list"
         android:layout_below="@+id/weatherButton"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolBarButton"
+        android:text="@string/toolBar"
+        android:layout_below="@+id/msgListBtn"/>
 </RelativeLayout>
